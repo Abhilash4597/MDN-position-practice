@@ -1,7 +1,16 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;;
+    font-family: BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+body a {
+    text-decoration: none;
+    color: black;
+}
+
+body a:hover {
+    text-decoration: underline;
 }
 
 .logo {
@@ -31,11 +40,6 @@
     background-color: lightblue;
 }
 
-.leftside_heading a {
-    text-decoration: none;
-    color: black;
-}
-
 .leftside_heading {
     display: flex;
     align-items: center;
@@ -55,7 +59,6 @@
 
 .rightside_heading a {
     color: rgb(0, 0, 0);
-    text-decoration: none;
     font-size: 14px;
     font-weight: bold;
     margin-right: 15px;
@@ -97,15 +100,40 @@
     position: fixed;
     top: 80px;
     width: 100%;
-    
+
 }
 
-.subheading a{
-    text-decoration: none;
+.subheading a {
     font-size: 17px;
     color: rgb(37, 37, 37);
 }
 
 .right_subheading {
     padding-right: 55px;
+}
+
+.left_main_block {
+    /* border: 2px solid olive; */
+    width: 21%;
+    height: 81%;
+    position: fixed;
+    top: 114px;
+    left: 0;
+    overflow: auto;
+}
+
+.left_main_block * {
+    margin: 15px 0 15px 10px;
+}
+
+.left_main_block li {
+    list-style: "> ";
+}
+
+.left_main_block h2 {
+    margin-top: 20px;
+}
+
+.left_main_block h3 {
+    margin-top: 30px;
 }
