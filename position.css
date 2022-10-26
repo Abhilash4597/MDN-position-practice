@@ -165,5 +165,19 @@ body a:hover {
 
 .right_main_block li {
     margin-top: 15px;
+}
 
+.mid_main_block {
+    height: 100%;
+    width: 55%;
+    margin-left: 21%;
+    margin-top: 8.5%;
+    overflow: auto;
+    padding: 20px;
+    text-align: left;
+    /* border: 2px solid orangered; */
+}
+
+footer {
+    height: 100px;
 }
